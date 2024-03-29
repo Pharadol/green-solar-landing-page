@@ -1,7 +1,10 @@
+import { installer } from "../../assets/config/infoSection"
+
 function Installer() {
   return (
-    <div className="py-20 h-80 my-80" id="installer">
-    </div>
+    <section className="py-20 h-80 my-80" id="installer">
+      <img src={installer.img} alt="" />
+    </section>
   )
 }
 
