@@ -1,3 +1,5 @@
+const BASE_URL_IMG = 'src/assets/images/'
+
 const header = {
   title: "Solar Panel Installers In Plymouth",
   detail:
@@ -22,7 +24,7 @@ const installer = {
     "leading universities and companies",
     "universities and companies",
   ],
-  img: "src/assets/images/solar-on-earth.png",
+  img: `${BASE_URL_IMG}solar-on-earth.png`,
 };
 
 const power = {
@@ -42,16 +44,37 @@ const solarKits = {
   cards: [
     {
       title: "Off Grid",
+      img: `${BASE_URL_IMG}`,
       detail:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
     },
     {
       title: "On Grid",
+      img: `${BASE_URL_IMG}`,
       detail:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
     },
     {
       title: "Hybrid",
+      img: `${BASE_URL_IMG}`,
+      detail:
+        "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
+    },
+    {
+      title: "Off Grid",
+      img: `${BASE_URL_IMG}`,
+      detail:
+        "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
+    },
+    {
+      title: "On Grid",
+      img: `${BASE_URL_IMG}`,
+      detail:
+        "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
+    },
+    {
+      title: "Hybrid",
+      img: `${BASE_URL_IMG}`,
       detail:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
     },
@@ -65,43 +88,4 @@ const repairs = {
     "We approach every aspect of our business with sustainability in mind. That's why we believe it's always worth trying to fix a system before outright replacing it, wherever possible – it requires fewer materials and is easier on the planet, as well as your wallet! If another company tells you that your system needs to be replaced, just give us a call and we'll see if we can repair it first.",
 };
 
-const review = {
-  title: "what they say about WOC",
-  detail: "More than 3000 users have been helped by World Online Course.",
-  reviews: [
-    {
-      title: "What they say",
-      detail:
-        "Studying at WOC is fun, the curriculum is complete, the instructors are competent, and the assignments given are also relevant to the current scope of work.",
-      reviewer: {
-        name: "Resky Fernanda",
-        img: "",
-        job: "Product Designer at Tokopedia",
-      },
-    },
-    {
-      title: "What they say",
-      detail:
-        "Studying at WOC is fun, the curriculum is complete, the instructors are competent, and the assignments given are also relevant to the current scope of work.",
-      reviewer: {
-        name: "Resky Fernanda",
-        img: "",
-        job: "Product Designer at Tokopedia",
-      },
-    },
-    {
-      title: "What they say",
-      detail:
-        "Studying at WOC is fun, the curriculum is complete, the instructors are competent, and the assignments given are also relevant to the current scope of work.",
-      reviewer: {
-        name: "Resky Fernanda",
-        img: "",
-        job: "Product Designer at Tokopedia",
-      },
-    },
-  ],
-};
-
-const about = {};
-
-export { header, installer, power, solarKits, repairs, review, about };
+export { header, installer, power, solarKits, repairs };
