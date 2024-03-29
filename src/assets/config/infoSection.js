@@ -1,7 +1,8 @@
-const BASE_URL_IMG = 'src/assets/images/'
+const BASE_URL_IMG = "src/assets/images/";
 
 const header = {
-  title: "Solar Panel Installers In Plymouth",
+  title: "Solar Panel Installers In <br/>Plymouth",
+  bg: `${BASE_URL_IMG}solar-with-nature.png`,
   detail:
     "Fueled is an award-winning technology consultancy that transforms businesses by generating ideas, building products, and accelerating growth",
   btn1: {
@@ -29,6 +30,7 @@ const installer = {
 
 const power = {
   title: "Power that Doesn't Cost the Earth",
+  bg: `${BASE_URL_IMG}windmill.png`,
   detail:
     "If you need advice then give us a call on 07745593882 or hit the button below to request a call back!",
   btn: {
@@ -44,37 +46,19 @@ const solarKits = {
   cards: [
     {
       title: "Off Grid",
-      img: `${BASE_URL_IMG}`,
+      img: `${BASE_URL_IMG}solar-off-grid.png`,
       detail:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
     },
     {
       title: "On Grid",
-      img: `${BASE_URL_IMG}`,
+      img: `${BASE_URL_IMG}solar-on-grid.png`,
       detail:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
     },
     {
       title: "Hybrid",
-      img: `${BASE_URL_IMG}`,
-      detail:
-        "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
-    },
-    {
-      title: "Off Grid",
-      img: `${BASE_URL_IMG}`,
-      detail:
-        "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
-    },
-    {
-      title: "On Grid",
-      img: `${BASE_URL_IMG}`,
-      detail:
-        "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
-    },
-    {
-      title: "Hybrid",
-      img: `${BASE_URL_IMG}`,
+      img: `${BASE_URL_IMG}solar-hybrid.png`,
       detail:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
     },
@@ -82,7 +66,7 @@ const solarKits = {
 };
 
 const repairs = {
-  bg: "",
+  bg: `${BASE_URL_IMG}work-zone.png`,
   title: "Repairs Over Replacement",
   detail:
     "We approach every aspect of our business with sustainability in mind. That's why we believe it's always worth trying to fix a system before outright replacing it, wherever possible – it requires fewer materials and is easier on the planet, as well as your wallet! If another company tells you that your system needs to be replaced, just give us a call and we'll see if we can repair it first.",
