@@ -1,0 +1,33 @@
+nav {
+  @apply fixed top-0 h-16 container max-w-full flex justify-center bg-[#1e9b8c] text-white;
+  .nav-wrapper {
+    @apply h-full relative container flex justify-center lg:max-w-[1100px] sm:justify-between sm:px-12;
+    button {
+      @apply block absolute left-2 top-3 p-1 rounded-md sm:hidden hover:bg-[#2d5e58];
+      .toggle-btn {
+        @apply w-8 h-8;
+      }
+    }
+    @apply flex flex-row;
+    .logo-wrapper {
+      @apply flex items-center;
+      .logo {
+        @apply w-10 h-10 text-white p-2 rounded-full;
+      }
+      span {
+      }
+    }
+    ul {
+      @apply top-16 w-full h-0 overflow-hidden transition-[height] duration-300 ease-out absolute bg-[#1e9b8c] sm:!h-fit sm:static sm:w-fit sm:flex sm:!bg-transparent sm:px-2 sm:py-3;
+      li {
+        @apply text-base py-2 px-3 rounded-md cursor-pointer hover:bg-[#2d5e58] transition-all duration-200 ease-out sm:!h-fit sm:block;
+      }
+    }
+    .hide {
+      @apply !px-0;
+    }
+    .open {
+      @apply h-[224px] px-2 py-3;
+    }
+  }
+}
