@@ -28,7 +28,7 @@ function Navbar() {
           {menus.map((list) => {
             return (
               <li className={isOpen ? "block" : "hidden"} key={list.title}>
-                <Link to={list.to} smooth spy duration={500} offset={-40}>
+                <Link to={list.to} smooth spy duration={500} offset={-20}>
                   {list.title}
                 </Link>
               </li>
