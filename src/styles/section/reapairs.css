@@ -1,0 +1,11 @@
+#repairs {
+  @apply bg-no-repeat bg-cover bg-center;
+  .container {
+    .content_wrapper {
+      @apply flex flex-col p-6 items-center backdrop-blur-sm max-w-[850px] mx-auto bg-[rgba(0,0,0,0.57)] rounded-xl;
+      h2, p {
+        @apply text-white text-center;
+      }
+    }
+  }
+}
