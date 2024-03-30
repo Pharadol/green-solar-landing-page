@@ -6,7 +6,7 @@ import SolarKits from "../../components/section/SolarKits";
 
 const LandingPage = () => {
   return (
-    <div className="text-green-700">
+    <div>
       <Solar />
       <Installer />
       <Power />

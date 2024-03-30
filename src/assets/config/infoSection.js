@@ -1,7 +1,7 @@
 const BASE_URL_IMG = "src/assets/images/";
 
 const header = {
-  title: "Solar Panel Installers In <br/>Plymouth",
+  title: "Solar Panel Installers In Plymouth",
   bg: `${BASE_URL_IMG}solar-with-nature.png`,
   detail:
     "Fueled is an award-winning technology consultancy that transforms businesses by generating ideas, building products, and accelerating growth",
