@@ -1,0 +1,18 @@
+.container {
+  @apply flex flex-col sm:flex-row sm:gap-x-6;
+  .content_wrapper {
+    @apply h-fit;
+    ul {
+      @apply flex flex-col gap-y-2;
+      li {
+        @apply flex text-lg font-semibold;
+        span {
+          @apply text-[#1e9b8c] flex justify-center items-center mr-[6px] w-6 h-6 border border-[#1e9b8c] border-solid rounded-full;
+        }
+      }
+    }
+  }
+  img {
+    @apply w-[90%] mt-10 sm:m-0 object-contain h-fit sm:w-[40%] lg:w-[35%];
+  }
+}
