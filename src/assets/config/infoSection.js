@@ -14,7 +14,6 @@ const header = {
     to: "#",
   },
 };
-
 const installer = {
   title: "The Friendliest Installers in the South-West",
   detail:
@@ -32,7 +31,7 @@ const power = {
   title: "Power that Doesn't Cost the Earth",
   bg: `${BASE_URL_IMG}windmill.png`,
   detail:
-    "If you need advice then give us a call on 07745593882 or hit the button below to request a call back!",
+    "If you need advice then give us a call on 07745593882 or hit the button below to request a call back! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident commodi omnis aspernatur sit doloribus reprehenderit.?",
   btn: {
     title: "Call Us Today",
     to: "#",
