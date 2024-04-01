@@ -1,0 +1,15 @@
+.swiper {
+  @apply overflow-hidden relative;
+  .swiper-wrapper {
+    @apply flex;
+  }
+  .swiper-pagination {
+    @apply h-4 w-fit mx-auto flex gap-x-1 justify-center mt-6;
+    .swiper-pagination-bullet {
+      @apply w-3 h-3 rounded-full bg-gray-300 cursor-pointer hover:bg-gray-400 transition-all duration-200;
+    }
+    .swiper-pagination-bullet-active {
+      @apply bg-gray-500;
+    }
+  }
+}

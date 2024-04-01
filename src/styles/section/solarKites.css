@@ -1,0 +1,29 @@
+#solar-kits {
+  .container {
+    @apply flex flex-col;
+    .title-section-wrapper {
+      h2 {
+        @apply mx-auto;
+      }
+      p {
+        @apply mx-auto max-w-[940px] text-center mb-10 break-words;
+      }
+    }
+
+    .swiper .swiper-wrapper .swiper-slide article {
+      @apply w-[280px] sm:w-[360px] shadow-xl rounded-lg border-[1px] bg-gray-50;
+      img {
+        @apply w-full rounded-lg rounded-b-none m-0;
+      }
+      div {
+        @apply p-5;
+        h3 {
+          @apply font-semibold text-xl mb-4;
+        }
+        p {
+          @apply text-base m-0;
+        }
+      }
+    }
+  }
+}

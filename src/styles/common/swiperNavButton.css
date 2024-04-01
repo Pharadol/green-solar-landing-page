@@ -1,0 +1,13 @@
+.swiper-nav-btn {
+  @apply w-full hidden sm:flex justify-between absolute top-[40%] px-2;
+  button {
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    @apply rounded-full p-1;
+    .arrow {
+      @apply w-12 h-12 text-white font-bold;
+    }
+  }
+  button:hover {
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+  }
+}

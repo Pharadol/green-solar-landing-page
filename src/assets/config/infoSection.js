@@ -61,6 +61,24 @@ const solarKits = {
       detail:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
     },
+    {
+      title: "Off Grid",
+      img: `${BASE_URL_IMG}solar-off-grid.png`,
+      detail:
+        "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
+    },
+    {
+      title: "On Grid",
+      img: `${BASE_URL_IMG}solar-on-grid.png`,
+      detail:
+        "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
+    },
+    {
+      title: "Hybrid",
+      img: `${BASE_URL_IMG}solar-hybrid.png`,
+      detail:
+        "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
+    },
   ],
 };
 
