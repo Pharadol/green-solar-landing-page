@@ -1,0 +1,32 @@
+footer {
+  .container {
+    @apply flex flex-col pb-0 pt-12 sm:pt-16;
+    .info_wrapper {
+      @apply flex flex-col justify-between sm:flex-row;
+      div {
+        @apply flex flex-col items-center sm:items-start mb-6 sm:mb-0 border-b-[1px] sm:border-0 w-full pb-6 sm:pb-0;
+        h3 {
+          @apply text-gray-900 font-semibold mb-4 w-fit;
+        }
+        ul {
+          @apply flex flex-col gap-y-3 items-center sm:items-start;
+          li {
+            @apply w-fit;
+            a {
+              @apply hover:text-gray-900 transition-all duration-200 ease-in-out text-[#475467] text-base;
+            }
+          }
+        }
+      }
+      div:last-child {
+        @apply border-0 pb-0 mb-0;
+      }
+    }
+    hr {
+      @apply mt-8;
+    }
+    p {
+      @apply text-sm my-6 text-[#475467];
+    }
+  }
+}

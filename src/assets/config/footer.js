@@ -17,10 +17,5 @@ export default {
       list: ["Claim", "Privacy", "Terms"],
     },
   ],
-  contact: [
-    {
-      id: "facebook",
-    },
-  ],
   copyRight: "© 2020 Your Company, Inc. All rights reserved.",
 };
