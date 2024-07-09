@@ -18,7 +18,7 @@ You can see a live demo of the project [here](https://green-solar.vercel.app/).
 ## Installation
 ### 1. Clone the repository
     git clone https://github.com/Pharadol/green-solar-landing-page.git
-### 2. Go to the folder
+### 2. Navigate to the project directory
     cd green-solar-landing-page
 ### 3. Install dependencies
     npm install
