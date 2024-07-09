@@ -1,8 +1,14 @@
-const BASE_URL_IMG = "/src/assets/images/";
+import solarWithNature from '../images/solar-with-nature.png'
+import windmill from '../images/windmill.png';
+import workZone from '../images/work-zone.png';
+import solarHybrid from '../images/solar-hybrid.png';
+import solarOffGird from '../images/solar-off-grid.png';
+import solarOnEarth from '../images/solar-on-earth.png';
+import solarOnGrid from '../images/solar-on-grid.png';
 
 const header = {
   title: "Solar Panel Installers In Plymouth",
-  bg: `${BASE_URL_IMG}solar-with-nature.png`,
+  bg: solarWithNature,
   detail:
     "Fueled is an award-winning technology consultancy that transforms businesses by generating ideas, building products, and accelerating growth",
   btn1: {
@@ -24,12 +30,12 @@ const installer = {
     "leading universities and companies",
     "universities and companies",
   ],
-  img: `${BASE_URL_IMG}solar-on-earth.png`,
+  img: solarOnEarth,
 };
 
 const power = {
   title: "Power that Doesn't Cost the Earth",
-  bg: `${BASE_URL_IMG}windmill.png`,
+  bg: windmill,
   detail:
     "If you need advice then give us a call on 07745593882 or hit the button below to request a call back! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident commodi omnis aspernatur sit doloribus reprehenderit.?",
   btn: {
@@ -45,37 +51,37 @@ const solarKits = {
   cards: [
     {
       title: "Off Grid",
-      img: `${BASE_URL_IMG}solar-off-grid.png`,
+      img: solarOffGird,
       detail:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
     },
     {
       title: "On Grid",
-      img: `${BASE_URL_IMG}solar-on-grid.png`,
+      img: solarOnGrid,
       detail:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
     },
     {
       title: "Hybrid",
-      img: `${BASE_URL_IMG}solar-hybrid.png`,
+      img: solarHybrid,
       detail:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
     },
     {
       title: "Off Grid",
-      img: `${BASE_URL_IMG}solar-off-grid.png`,
+      img: solarOffGird,
       detail:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
     },
     {
       title: "On Grid",
-      img: `${BASE_URL_IMG}solar-on-grid.png`,
+      img: solarOnGrid,
       detail:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
     },
     {
       title: "Hybrid",
-      img: `${BASE_URL_IMG}solar-hybrid.png`,
+      img: solarHybrid,
       detail:
         "WOC has contributed to students so that they can work in their dream company, we will continue to stick to our commitment to create an advanced generation,",
     },
@@ -83,7 +89,7 @@ const solarKits = {
 };
 
 const repairs = {
-  bg: `${BASE_URL_IMG}work-zone.png`,
+  bg: workZone,
   title: "Repairs Over Replacement",
   detail:
     "We approach every aspect of our business with sustainability in mind. That's why we believe it's always worth trying to fix a system before outright replacing it, wherever possible – it requires fewer materials and is easier on the planet, as well as your wallet! If another company tells you that your system needs to be replaced, just give us a call and we'll see if we can repair it first.",
