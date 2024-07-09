@@ -1,4 +1,4 @@
-const BASE_URL_IMG = "src/assets/images/";
+const BASE_URL_IMG = "/src/assets/images/";
 
 const header = {
   title: "Solar Panel Installers In Plymouth",
