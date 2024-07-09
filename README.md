@@ -1,8 +1,26 @@
-# React + Vite
+# Green Solar Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a landing page for a solar panel installation company, built with React.js and TailwindCSS.
 
-Currently, two official plugins are available:
+## Demo
+You can see a live demo of the project [here](https://green-solar.vercel.app/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Project Screenshot](https://img2.pic.in.th/pic/green-solar.png)
+
+## Features
+- **Responsive Design**: Optimized for various screen sizes and devices.
+- **Modern UI**: Utilizes React.js for a dynamic and interactive user experience.
+- **Styling**: TailwindCSS for quick and efficient styling.
+- **Carousel**: Swiper.js integration for showcasing solar kits.
+- **Modular Components**: Easy to manage and extend the codebase with reusable components.
+
+
+## Installation
+### 1. Clone the repository
+    git clone https://github.com/Pharadol/green-solar-landing-page.git
+### 2. Go to the folder
+    cd green-solar-landing-page
+### 3. Install dependencies
+    npm install
+### 4. Run the application
+    npm run dev
