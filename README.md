@@ -14,6 +14,9 @@ You can see a live demo of the project [here](https://green-solar.vercel.app/).
 - **Carousel**: Swiper.js integration for showcasing solar kits.
 - **Modular Components**: Easy to manage and extend the codebase with reusable components.
 
+## Tech Stack
+ - React.js
+ - TailwindCSS
 
 ## Installation
 ### 1. Clone the repository
